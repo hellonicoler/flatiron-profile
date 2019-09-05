@@ -1,0 +1,20 @@
+# Site settings
+author: Nicole Rothenay
+title: hellonicoler learns code
+header-img: img/home-bg.png
+email: nicoler@iccreativeagency.com
+copyright_name: Nicole Rothenay
+description: > # this means to ignore newlines until "baseurl:"
+  Go, newbie go!
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: HelloNicoleR
+github_username:  hellonicoler
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
